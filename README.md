@@ -32,13 +32,14 @@
 
 
 Поле для вставки кода.
-sql
+```sql
     CREATE USER 'sys_temp'@'localhost' IDENTIFIED BY 'Q1w2e3r4';
 GRANT ALL PRIVILEGES ON *.* TO 'sys_temp'@'localhost';
 SELECT User, Host FROM mysql.user;
 SHOW GRANTS FOR 'sys_temp'@'localhost';
 ALTER USER 'sys_temp'@'localhost' IDENTIFIED WITH mysql_native_password BY 'Q1w2e3r4';
 SELECT CURRENT_USER();
+```
 
 
 
