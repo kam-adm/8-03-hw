@@ -34,20 +34,21 @@
 
 ### Задание 2
 
-<img src = "img/Снимок экрана от 2026-01-10 14-51-37.png" width = 100%>
-<img src = "img/Снимок экрана от 2026-01-10 15-29-43.png" width = 100%>
+<img src = "img/1.png" width = 100%>
+<img src = "img/2.png" width = 100%>
+<img src = "img/3.png" width = 100%>
+<img src = "img/4.png" width = 100%>
+<img src = "img/5.png" width = 100%>
+<img src = "img/6.png" width = 100%>
+<img src = "img/7.png" width = 100%>
+<img src = "img/8.png" width = 100%>
+<img src = "img/9.png" width = 100%>
+<img src = "img/10.png" width = 100%>
+<img src = "img/11.png" width = 100%>
+<img src = "img/12.png" width = 100%>
+<img src = "img/13.png" width = 100%>
 
 
-```sql
-    SELECT 
-    TABLE_NAME AS 'Таблица', 
-    COLUMN_NAME AS 'Первичный ключ'
-FROM 
-    information_schema.KEY_COLUMN_USAGE
-WHERE 
-    TABLE_SCHEMA = 'sakila'           
-    AND CONSTRAINT_NAME = 'PRIMARY';
 
-```
 
 
